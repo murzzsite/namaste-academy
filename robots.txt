@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /namaste-academy/blog/preview/
+
+Sitemap: https://murzzsite.github.io/namaste-academy/sitemap.xml

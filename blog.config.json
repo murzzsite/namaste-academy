@@ -1,0 +1,38 @@
+{
+  "siteName": "Виктория Гросс",
+  "siteUrl": "https://murzzsite.github.io/namaste-academy",
+  "lang": "ru",
+  "repo": "murzzsite/namaste-academy",
+  "ref": "UVQ34QB5EZ",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Статьи Виктории Гросс о повторяющихся сценариях, внутренней опоре и переходе на новый уровень жизни",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Виктория Гросс",
+    "jobTitle": "",
+    "type": "Person"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Расскажите о своём запросе: я отвечу лично и подскажу, с чего начать.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#contact",
+  "disclaimer": "Материал носит информационный характер, относится к коучингу и личному развитию и не заменяет медицинскую или психотерапевтическую помощь. Результат зависит от вашей готовности действовать и не гарантируется.",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/"
+  ],
+  "indexNowKey": "27f54306eff777e41b7f46a3e9b6c0d9",
+  "previewSecret": "2af5a27388ffaba3",
+  "theme": {
+    "accent": "var(--accent)",
+    "bg": "var(--bg)",
+    "surface": "var(--surface)",
+    "ink": "var(--ink)",
+    "soft": "var(--ink-soft)",
+    "line": "var(--border)",
+    "accent-soft": "color-mix(in srgb, var(--accent) 10%, #ffffff)"
+  }
+}
