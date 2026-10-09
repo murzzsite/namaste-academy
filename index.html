@@ -16,15 +16,11 @@
 
 <header class="header" id="header">
   <div class="container header__inner">
-    <a href="#top" class="logo">
-      <span class="logo__main">Виктория Гросс</span>
-      <span class="logo__suffix">NAMASTE Academy</span>
-    </a>
+    <a href="#top" class="logo" aria-label="NAMASTE Academy"><span class="brand"><svg class="brand__mark" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 6c5 6 8 12 8 18 0 6-3 11-8 15-5-4-8-9-8-15 0-6 3-12 8-18z" stroke="#b8914f" stroke-width="1.6" stroke-linejoin="round"/><path d="M22 36C14 36 8 32 5 25c7-1 13 1 17 6z" stroke="#14503f" stroke-width="1.6" stroke-linejoin="round"/><path d="M26 36c8 0 14-4 17-11-7-1-13 1-17 6z" stroke="#14503f" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 40c4 3 9 4 10 4s6-1 10-4" stroke="#b8914f" stroke-width="1.4" stroke-linecap="round"/></svg><span class="brand__txt"><span class="brand__name">NAMASTE</span><span class="brand__sub">Академия нового времени</span></span></span></a>
     <nav class="nav" id="nav">
       <a href="#for-whom">Кому подходит</a>
       <a href="#method">Подход</a>
       <a href="#services">Форматы</a>
-      <a href="#price">Стоимость</a>
       <a href="#process">Путь</a>
       <a href="#faq">Вопросы</a>
       <a href="#contact">Контакты</a>
@@ -55,49 +51,14 @@
           <a href="#contact" class="btn btn--primary">Записаться на входную сессию</a>
           <a href="https://t.me/Weltliebe" target="_blank" rel="noopener" class="btn btn--ghost">Написать в Telegram</a>
         </div>
-        <div class="hero__stats">
-          <div class="stat">
-            <span class="stat__num">от 369 €</span>
-            <span class="stat__label">индивидуальная трансформационная сессия</span>
-          </div>
-          <div class="stat">
-            <span class="stat__num">3</span>
-            <span class="stat__label">уровня: сессия, сопровождение, Академия</span>
-          </div>
-          <div class="stat">
-            <span class="stat__num">DE · EU</span>
-            <span class="stat__label">очно в Heidelberg и онлайн для русскоязычных по всему миру</span>
-          </div>
         </div>
-      </div>
-      <div class="hero__card">
-        <div class="hero__art" aria-hidden="true">
-          <svg viewBox="0 0 320 260" fill="none">
-            <ellipse cx="160" cy="238" rx="120" ry="10" fill="#d9cdee" opacity=".7"/>
-            <circle cx="160" cy="120" r="92" stroke="#b8975a" stroke-width="1.5" stroke-dasharray="3 6"/>
-            <circle cx="160" cy="120" r="64" stroke="#6b55a3" stroke-width="2" opacity=".5"/>
-            <g stroke="#46357a" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="#fbf8ff">
-              <path d="M160 70c14 18 22 34 22 50 0 20-10 36-22 48-12-12-22-28-22-48 0-16 8-32 22-50z" fill="#e9e0f6"/>
-              <path d="M138 128c-24-4-44 0-62 16 22 14 46 16 68 4z"/>
-              <path d="M182 128c24-4 44 0 62 16-22 14-46 16-68 4z"/>
-              <path d="M144 150c-16 10-34 12-52 12 14 16 36 24 60 14z" opacity=".9"/>
-              <path d="M176 150c16 10 34 12 52 12-14 16-36 24-60 14z" opacity=".9"/>
-            </g>
-            <circle cx="160" cy="40" r="5" fill="#b8975a"/>
-            <circle cx="64" cy="96" r="4" fill="#b8975a"/>
-            <circle cx="256" cy="96" r="4" fill="#b8975a"/>
-          </svg>
+      <figure class="hero__photo">
+        <!-- ФОТО: заменить блок .hero__photo-in на <img src="images/victoria.jpg" alt="Виктория Гросс"> -->
+        <div class="hero__photo-in">
+          <svg class="watermark" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 6c5 6 8 12 8 18 0 6-3 11-8 15-5-4-8-9-8-15 0-6 3-12 8-18z" stroke="#b8914f" stroke-width="1.6" stroke-linejoin="round"/><path d="M22 36C14 36 8 32 5 25c7-1 13 1 17 6z" stroke="#14503f" stroke-width="1.6" stroke-linejoin="round"/><path d="M26 36c8 0 14-4 17-11-7-1-13 1-17 6z" stroke="#14503f" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 40c4 3 9 4 10 4s6-1 10-4" stroke="#b8914f" stroke-width="1.4" stroke-linecap="round"/></svg>
         </div>
-        <div class="hero__card-body">
-          <div class="hero__card-badge">NAMASTE Academy · Академия нового времени</div>
-          <ul class="hero__card-list">
-            <li>Трансперсональная психология, коучинг, работа с состоянием и энергетические практики в одном сопровождении</li>
-            <li>Работаем с корнем повторяющихся сценариев, а не с симптомом</li>
-            <li>Инсайты переводим в действия: отношения, реализация, работа, финансы</li>
-          </ul>
-          <div class="hero__card-quote">«Ко мне приходят тогда, когда обычных ответов уже недостаточно»</div>
-        </div>
-      </div>
+        <figcaption class="hero__photo-cap"><strong>Виктория Гросс</strong><span>Основательница NAMASTE Academy</span></figcaption>
+      </figure>
     </div>
   </section>
 
@@ -203,91 +164,56 @@
     </div>
   </section>
 
-  <!-- УСЛУГИ -->
+  <!-- ФОРМАТЫ -->
   <section class="services" id="services">
     <div class="container">
       <p class="section-eyebrow">Форматы работы</p>
-      <h2 class="section-title">Путь от входной сессии до Академии</h2>
+      <h2 class="section-title">Выберите свой формат</h2>
 
-      <h3 class="services__sub">Индивидуальная работа</h3>
-      <div class="services-grid services-grid--2">
-        <div class="service service--accent">
-          <span class="service__badge">С чего начать</span>
-          <h3>Индивидуальная трансформационная сессия</h3>
-          <p>Разбор вашей ситуации, поиск корня повторяющегося сценария и первые конкретные решения. Подходит и как вход в более длинное сопровождение.</p>
-          <div class="service__price">от 369 €</div>
-          <a href="#contact" class="service__link">Записаться →</a>
-        </div>
-        <div class="service">
-          <h3>Пакет индивидуального сопровождения</h3>
-          <p>Работа на несколько недель или месяцев: меняем ограничивающие сценарии, укрепляем опору и закрепляем изменения в действиях.</p>
-          <div class="service__price">от 770 €</div>
-          <a href="#contact" class="service__link">Записаться →</a>
-        </div>
-        <div class="service">
-          <span class="service__badge">Премиум</span>
-          <h3>Индивидуальное премиальное сопровождение</h3>
-          <p>4 недели и 10 встреч: глубокое погружение, регулярный контакт и плотная интеграция изменений в вашу жизнь.</p>
-          <div class="service__price">2 400 €</div>
-          <a href="#contact" class="service__link">Записаться →</a>
-        </div>
-        <div class="service">
-          <h3>Групповой менторинг</h3>
-          <p>Работа в группе единомышленников с наставничеством. Стоимость зависит от задачи и формата.</p>
-          <div class="service__price">1 100–2 400 €</div>
-          <a href="#contact" class="service__link">Узнать о наборе →</a>
+      <div class="fmt-group">
+        <div class="fmt-group__head"><h3>Индивидуальная работа</h3></div>
+        <div class="fmt-grid fmt-grid--3">
+          <div class="fmt">
+            <h4>Индивидуальная сессия</h4>
+            <p>Когда важно увидеть ситуацию глубже, получить ясность и определить следующий шаг.</p>
+            <a href="#contact" class="fmt__link">Записаться →</a>
+          </div>
+          <div class="fmt">
+            <h4>Наставничество</h4>
+            <p>Для тех, кому нужен не разовый импульс, а сопровождение в период глубокой внутренней и внешней трансформации.</p>
+            <a href="#contact" class="fmt__link">Обсудить →</a>
+          </div>
+          <div class="fmt">
+            <h4>Групповые программы</h4>
+            <p>Тематические программы трансформации, практики и пространство единомышленников.</p>
+            <a href="#contact" class="fmt__link">Узнать о наборе →</a>
+          </div>
         </div>
       </div>
 
-      <h3 class="services__sub">NAMASTE Academy: программы и обучение</h3>
-      <div class="services-grid services-grid--2">
-        <div class="service">
-          <h3>Групповые трансформационные программы Академии</h3>
-          <p>Программы от одного месяца. Стоимость зависит от программы и глубины работы.</p>
-          <div class="service__price">2 800–11 000 €</div>
-          <a href="#contact" class="service__link">Узнать о программах →</a>
-        </div>
-        <div class="service">
-          <h3>Reiki, посвящения и обучение</h3>
-          <p>Отдельные программы и уровни, проходят очно.</p>
-          <div class="service__price"><small>Стоимость зависит от уровня, по запросу</small></div>
-          <a href="#contact" class="service__link">Узнать подробнее →</a>
-        </div>
-        <div class="service">
-          <h3>Обучение трансформационному методу</h3>
-          <p>Программы для мастеров и специалистов. Проход на программу после собеседования.</p>
-          <div class="service__price"><small>Стоимость зависит от уровня, по запросу</small></div>
-          <a href="#contact" class="service__link">Пройти собеседование →</a>
-        </div>
-        <div class="service">
-          <span class="service__badge">Для организаций</span>
-          <h3>Тренинги, супервизии, саморегуляция</h3>
-          <p>Программы саморегуляции, тренинги и супервизии для школ, организаций, руководителей и команд.</p>
-          <div class="service__price"><small>Индивидуальный расчёт</small></div>
-          <a href="#contact" class="service__link">Обсудить задачу →</a>
+      <div class="fmt-group">
+        <div class="fmt-group__head"><h3>NAMASTE · Школа Мастеров</h3></div>
+        <div class="fmt-grid fmt-grid--1">
+          <div class="fmt">
+            <h4>Для тех, кто прошёл собственный путь</h4>
+            <p>Углубление мастерства, внутреннего лидерства и способности вести других. Приём после собеседования.</p>
+            <a href="#contact" class="fmt__link">Пройти собеседование →</a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- ПРАЙС -->
-  <section class="price" id="price">
-    <div class="container">
-      <p class="section-eyebrow">Стоимость</p>
-      <h2 class="section-title">Форматы и цены</h2>
-      <div class="price__table">
-        <div class="price__row price__row--head">
-          <span>Формат</span><span>Что входит</span><span>Стоимость</span>
+      <div class="fmt-group">
+        <div class="fmt-group__head"><h3>Работа с организациями / B2B</h3></div>
+        <div class="fmt-grid fmt-grid--1">
+          <div class="fmt">
+            <h4>Организации и команды</h4>
+            <p>Тренинги, супервизии, саморегуляция и развитие руководителей и команд.</p>
+            <a href="#contact" class="fmt__link">Обсудить задачу →</a>
+          </div>
         </div>
-        <div class="price__row"><span>Трансформационная сессия</span><span>Индивидуальная работа с запросом и корнем сценария</span><span>от 369 €</span></div>
-        <div class="price__row"><span>Пакет сопровождения</span><span>Работа на несколько недель или месяцев</span><span>от 770 €</span></div>
-        <div class="price__row"><span>Групповой менторинг</span><span>Группа и наставничество под задачу</span><span>1 100–2 400 €</span></div>
-        <div class="price__row"><span>Премиальное сопровождение</span><span>4 недели, 10 индивидуальных встреч</span><span>2 400 €</span></div>
-        <div class="price__row"><span>Программы Академии</span><span>Групповые трансформационные программы от месяца</span><span>2 800–11 000 €</span></div>
-        <div class="price__row"><span>Reiki, обучение методу</span><span>Очные уровни и программы для специалистов</span><span>по запросу</span></div>
-        <div class="price__row"><span>B2B: школы и организации</span><span>Тренинги, супервизии, программы саморегуляции</span><span>индивидуально</span></div>
       </div>
-      <p class="price__note">Не знаете, какой формат выбрать? Начните с входной сессии: на ней мы определим запрос и подходящий путь.</p>
+
+      <p class="fmt-note">Стоимость зависит от формата и задачи. Начать можно с индивидуальной сессии: на ней мы определим, какой путь вам подходит.</p>
     </div>
   </section>
 
@@ -417,8 +343,8 @@
 <footer class="footer">
   <div class="container footer__inner">
     <div class="footer__brand">
-      <span class="logo__main">Виктория Гросс</span>
-      <p>Основательница NAMASTE Academy (Академия нового времени). Трансперсональная психология, трансформационный коучинг, наставничество. Heidelberg и онлайн</p>
+      <span class="brand"><svg class="brand__mark" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 6c5 6 8 12 8 18 0 6-3 11-8 15-5-4-8-9-8-15 0-6 3-12 8-18z" stroke="#b8914f" stroke-width="1.6" stroke-linejoin="round"/><path d="M22 36C14 36 8 32 5 25c7-1 13 1 17 6z" stroke="#14503f" stroke-width="1.6" stroke-linejoin="round"/><path d="M26 36c8 0 14-4 17-11-7-1-13 1-17 6z" stroke="#14503f" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 40c4 3 9 4 10 4s6-1 10-4" stroke="#b8914f" stroke-width="1.4" stroke-linecap="round"/></svg><span class="brand__txt"><span class="brand__name">NAMASTE</span><span class="brand__sub">Академия нового времени</span></span></span>
+      <p>Виктория Гросс, основательница NAMASTE Academy. Трансперсональная психология, трансформационный коучинг, наставничество. Heidelberg и онлайн</p>
       <p class="disclaimer">Услуги относятся к коучингу и наставничеству и не заменяют медицинскую или психотерапевтическую помощь. Результат зависит от вашей готовности действовать и не гарантируется.</p>
     </div>
     <div class="footer__links">
