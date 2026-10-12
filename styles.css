@@ -693,3 +693,7 @@ body { background: var(--bg); }
 .fmt-note { font-size: 14.5px; color: var(--ink-soft); text-align: center; max-width: 640px; margin: 0 auto; }
 @media (max-width: 900px) { .fmt-grid--3 { grid-template-columns: 1fr; } .hero__inner { gap: 48px; } .hero { padding: 40px 0 70px; } .hero__photo { order: -1; max-width: 420px; } }
 @media (max-width: 560px) { .brand__name { font-size: 17px; letter-spacing: .22em; } .brand__sub { display: none; } .btn { padding: 14px 22px; } }
+
+.brand__mark { width: auto; height: 40px; }
+.footer__logo { display: block; width: 260px; max-width: 70%; height: auto; margin-bottom: 18px; }
+.hero__photo-in .watermark { width: 60%; height: auto; opacity: .85; }
