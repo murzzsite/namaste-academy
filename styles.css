@@ -705,3 +705,22 @@ body { background: var(--bg); }
 .about__fig::before { content: ""; position: absolute; inset: 12px -12px -12px 12px; border: 1px solid var(--gold); }
 .about__fig img { position: relative; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 12%; border: 1px solid var(--border); background: var(--bg-alt); }
 @media (max-width: 900px) { .about__fig { width: 100%; max-width: 320px; } .about__intro { gap: 40px; } }
+
+/* MOBILE FIX: no horizontal overflow */
+html, body { overflow-x: hidden; }
+.hero__inner > *, .form-section__inner > *, .audience > *, .method__grid > *, .fmt-grid > *, .about__intro > * { min-width: 0; }
+@media (max-width: 900px) {
+  .hero__inner, .form-section__inner, .audience, .method__grid { grid-template-columns: minmax(0, 1fr); }
+  .btn { white-space: normal; text-align: center; }
+  .hero__cta { flex-direction: column; align-items: stretch; }
+  .hero__cta .btn { width: 100%; }
+  .contact-card, .form input, .form textarea, .form select { max-width: 100%; }
+  .section-title { overflow-wrap: anywhere; }
+}
+@media (max-width: 560px) {
+  .container { padding: 0 20px; }
+  .hero { padding: 28px 0 60px; }
+  .about, .method, .principles, .services, .process, .faq, .form-section { padding: 64px 0; }
+  .form { padding: 24px 20px; }
+  .hero__photo { margin: 0 12px 12px 0; }
+}
