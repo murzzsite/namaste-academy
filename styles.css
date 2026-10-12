@@ -697,3 +697,11 @@ body { background: var(--bg); }
 .brand__mark { width: auto; height: 40px; }
 .footer__logo { display: block; width: 260px; max-width: 70%; height: auto; margin-bottom: 18px; }
 .hero__photo-in .watermark { width: 60%; height: auto; opacity: .85; }
+
+.hero__photo-in { aspect-ratio: 3 / 4; }
+.hero__photo-in img { object-position: center 15%; }
+.about__intro { gap: 56px; }
+.about__fig { position: relative; flex-shrink: 0; width: 300px; margin: 0 14px 14px 0; }
+.about__fig::before { content: ""; position: absolute; inset: 12px -12px -12px 12px; border: 1px solid var(--gold); }
+.about__fig img { position: relative; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 12%; border: 1px solid var(--border); background: var(--bg-alt); }
+@media (max-width: 900px) { .about__fig { width: 100%; max-width: 320px; } .about__intro { gap: 40px; } }
