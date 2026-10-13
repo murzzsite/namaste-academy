@@ -739,3 +739,4 @@ html, body { overflow-x: hidden; }
   .about__fig { max-width: 240px; margin: 0 auto 14px; }
   .about__fig img { aspect-ratio: 1 / 1; object-position: center 10%; }
 }
+.about__fig img { height: auto; display: block; }
