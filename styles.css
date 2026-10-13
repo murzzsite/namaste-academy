@@ -724,3 +724,18 @@ html, body { overflow-x: hidden; }
   .form { padding: 24px 20px; }
   .hero__photo { margin: 0 12px 12px 0; }
 }
+
+/* PHOTO SIZES (mobile-friendly) */
+.hero__photo-in { aspect-ratio: 4 / 5; }
+.hero__photo-in img { object-position: center 20%; }
+.about__fig img { aspect-ratio: 3 / 4; object-position: center 8%; }
+@media (max-width: 900px) {
+  .hero__photo { width: 100%; max-width: 300px; margin: 0 auto 14px; }
+  .hero__photo-in { aspect-ratio: 1 / 1; }
+  .hero__photo-in img { object-position: center 12%; }
+  .hero__photo-cap { padding: 10px 16px; }
+  .hero__photo-cap strong { font-size: 15px; }
+  .hero__photo-cap span { font-size: 11px; }
+  .about__fig { max-width: 240px; margin: 0 auto 14px; }
+  .about__fig img { aspect-ratio: 1 / 1; object-position: center 10%; }
+}
